@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css3?family=Nunito:wght@200;300;400;500;600;700;&display=swap');
+*{
+    /* font-family: 'Nunito', sans-serif; */
+    margin: 0;padding: 0;
+    text-transform: capitalize;
+    outline: none;bottom: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+#header{position: relative;
+top: 0;left: 0;right: 0;
+background-color: #333;
+z-index: 100;display: flex;align-items: center;
+justify-content: space-between;padding: 1rem 9%;
+}
+#header .logo{
+   margin: 0;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+}
+#header .logo span{
+    color: #ffa500;
+}
+#header .navbar a{
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0.9rem;
+}
+#header .navbar a:hover{
+    color: orange;
+}
+#header .icons i{
+    font-style: 2.5rem;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+#header .icons i:hover{
+    color: orange;
+}
+#header .search-bar-container{
+    position:absolute;
+    top: 100%;
+    left: 0;
+    right: 0;padding: 0.5rem 2rem;
+    background-color: rgba(180, 167, 167, 0.377);
+    border-top: .1rem solid rgba(255,255,255,0.2);
+    display: flex;
+    align-items: center;
+    z-index: 102;
+    /* clip-path: polygon(0 0,100% 0,100% 0, 0 0); */
+}
+#header .search-bar-container{
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+}
+#header .search-bar-container #search-bar{
+    width: 100%;
+padding: 1rem;
+text-transform: none;
+color: rgb(20, 20, 20);
+font-style: 1.1em;
+border: wheat;
+border-radius: 2rem;}
+#header .search-bar-container label{
+    color:#fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+}
+
+#header .search-bar-container label:hover{
+    color: #ffa500;
+}

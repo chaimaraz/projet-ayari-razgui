@@ -1,0 +1,87 @@
+<table class="table" *ngIf="auth.isAdmin()">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Id </th>
+      <th scope="col">Libelle</th>
+      <th scope="col">Prix</th>
+      <th scope="col">Place</th>
+      <th scope="col">Modifier</th>
+      <th>Supprimer</th>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let p of produits">
+      <th scope="row">{{p.id}}</th>
+      <td>{{p.libelle}}</td>
+      <td>{{p.prix}}</td>
+      <td>{{p.place}}</td>
+      <td><button class="btn btn-success"  [routerLink]="(['/interface',p.id])"> Modifier </button></td>
+      <td><button class="btn btn-danger" (click)="onSupprimer(p.id)"> Supprimer</button></td>
+   
+    </tr>
+   
+  </tbody>
+  <button class="btn btn-primary" routerLink="../interface" > Ajouter un produit </button>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <section class="py-5 text-center container" *ngIf="!auth.isAdmin()">
+    <div class="row py-lg-5" >
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Tunisia Travel</h1>
+        <p class="lead text-muted">Notre agence de voyages est heureuse de vous accueillir pour vous conseiller sur vos prochains voyages, vos voyages d'affaires, vos séjours ou vos week ends. 
+          Vous trouverez toujours chez nous une écoute attentive, un conseil personnalisé et surtout un vaste choix de destinations pour trouver les vacances dont vous rêvez ! … </p>
+        <p>
+         
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light"  *ngIf="!auth.isAdmin()">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col" *ngFor="let r of regionales; index as index">
+            <div class="card shadow-sm">
+        
+      <svg *ngIf='photos[index]== ""  ' class="bd-placeholder-img card-img-top" width="100%" height="225"  role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <img src="{{photos[index]}}" class="rounded mx-auto d-block" alt="">
+           
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                   
+                    <button class="btn btn-warning" [routerLink]="['/Package', r]"> {{r}}</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary" [routerLink]="['/Package', r]">View</button>
+                  
+                </div>
+              
+              </div>
+            </div>
+          </div>
+        </div></div></div></div>
+        <app-footer *ngIf="!auth.isAdmin()"></app-footer>

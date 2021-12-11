@@ -1,0 +1,36 @@
+
+<div id="header">
+<a href="travel" class="logo"><span>T</span>ravel </a>
+  
+  
+<nav class="navbar">
+    <a routerLink="/Home">Home</a>
+    <a routerLink="../galerie">About us</a>
+    <a routerLink="../Package">Package</a>
+<a routerLink="/propos"  class="nav-item">A Propos</a>
+<a routerLink="../galerie">Gallerie</a>
+<a routerLink="../contact">Contact US</a>
+</nav>  
+<form [formGroup]="form" class="search-bar-container" *ngIf="display" novalidate>
+    <input type="search" id="search-bar" placeholder="Search here" value="abcd" formControlName="search" >
+    <label for="search-bar" class="fas fa-search" (click)="fn()"></label>
+
+
+</form> 
+<div class="icons">
+   
+     <i class="fas fa-search" id ="search-btn" #i1 (click)="onclick(i1)" ></i>  
+     
+  
+  <i class="fas fa-user" id="login-btn" (click)="toform()"></i>  
+</div>
+
+    <!-- <button   class="btn text-white">
+       {{login.user_connecte}} aaa </button> -->
+       <button   class="btn text-white" (click)="logout()" *ngIf="login.isAdmin()">
+        logout  </button>
+
+
+
+
+
