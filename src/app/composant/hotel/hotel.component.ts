@@ -48,6 +48,7 @@ a=false;
    }
 
    calculerPrix(){
+     console.log(this.produits[0]);
     let date1 =new Date(this.productForm.controls.arrive.value);
     let date2 = new Date(this.productForm.controls.depart.value);
     let time_diff = date2.getTime()- date1.getTime();
@@ -77,13 +78,16 @@ a=false;
         })*/
       alert(c);
       
-     /*this.produitS.getProduit().subscribe(data => this.produits.forEach(elt =>
+     /* this.produitS.getProduit().subscribe(data => this.produits.forEach(elt =>
       this.produitS.commenter(c,id).subscribe(d=> elt.commentaire.push(c))
-      ));*/
-      this.produitS.getProduit().subscribe(data => this.produits.forEach(elt =>
+      ));
+     this.produitS.getProduit().subscribe(data => this.produits.forEach(elt =>
          elt.commentaire.push(c))
-        );
-     
+        );*/
+        this.produitS.addCom(c)
+        .subscribe( data   => this.produits[0].commentaire.push(c) );
+
+       
 
 /*this.produitS.getProduit().subscribe(data => this.produits.forEach(elt => elt.commentaire.push(c) ,*/
 this.com=c;
@@ -93,12 +97,12 @@ this.com=c;
 
   ngOnInit() {
     this.nom= this.activatedRoute.snapshot.params['hotel'];
-    let i= this.activatedRoute.snapshot.params['place'];
-    console.log(i);
+    //let i= this.activatedRoute.snapshot.params['place'];
+    //console.log(i);
     
-    this.produitS.getProduitByPlace(i).subscribe(data => this.produits=data);
+    //this.produitS.getProduitByPlace(i).subscribe(data => this.produits=data);
   
-    console.log(this.nom);
+    //console.log(this.nom);
     this.produitS.getProduit().subscribe(data => this.produits=data);
     this.produitS.getProduit().subscribe(() => this.produits=this.produits.filter(l => l.libelle== this.nom));
 

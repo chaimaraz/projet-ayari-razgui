@@ -8,7 +8,7 @@ import { FormArray, FormBuilder, FormControl, FormGroup, NgForm } from '@angular
   selector: 'app-admin-interface',
   templateUrl: './admin-interface.component.html',
   styleUrls: ['./admin-interface.component.css']
-})
+}) 
 export class AdminInterfaceComponent implements OnInit {
 public currentProduit:Produit;
 
@@ -95,29 +95,18 @@ return this.form.get('photo') as FormArray;
 
 onAjouterimage()
 {
-
-  this.lesimages.push(new FormControl(''));
    this.lesimages.push(this.form.controls.image)
 }
 
 
-//////////////////////
-onAfficherimages()
-{ for(let p of this.lesimages.controls)
-console.log(p.value);
-}
-///////////////////
 
 
-
-
-/////////////////
 updateproduit(id:number){
   this.produitService.updateProduit(id, this.form.value)
   .subscribe(data => this.currentProduit=data);
   this.router.navigate(['/Package']);
   }
-  ////////////////////
+ 
 
 
 

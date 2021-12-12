@@ -4,15 +4,14 @@
   
   
 <nav class="navbar">
-    <a routerLink="/Home">Home</a>
-    <a routerLink="../galerie">About us</a>
-    <a routerLink="../Package">Package</a>
+    <a routerLink="/Home">Accueil</a>
+    <a routerLink="../Package">Destination</a>
 <a routerLink="/propos"  class="nav-item">A Propos</a>
 <a routerLink="../galerie">Gallerie</a>
-<a routerLink="../contact">Contact US</a>
+
 </nav>  
 <form [formGroup]="form" class="search-bar-container" *ngIf="display" novalidate>
-    <input type="search" id="search-bar" placeholder="Search here" value="abcd" formControlName="search" >
+    <input type="search" id="search-bar" placeholder="entrez le nom ou le lieu de l'hôtel" value="abcd" formControlName="search" >
     <label for="search-bar" class="fas fa-search" (click)="fn()"></label>
 
 

@@ -12,7 +12,8 @@ export class Produit {
         public des?:Array<string>,
         public chambres?:Array<string>,
         public ajoutChambre?:string[],
-        public commentaire?:string[]
+        public commentaire?:string[],
+        public etoile?:number
         
         ){}
 }

@@ -15,6 +15,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminInterfaceComponent } from './composant/admin-interface/admin-interface.component';
 import {HttpClientModule} from "@angular/common/http";
 import { AproposComponent } from './composant/apropos/apropos.component';
+import { HotelPipe } from './hotel.pipe';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { AproposComponent } from './composant/apropos/apropos.component';
     GalerieComponent,
     FormulaireComponent,
     AdminInterfaceComponent,
-    AproposComponent
+    AproposComponent,
+    HotelPipe
   ],
   imports: [
     BrowserModule,

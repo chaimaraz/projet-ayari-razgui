@@ -1,9 +1,10 @@
 <!-- <h1>hotel <span style="color: rgba(red, green, blue, alpha);">{{produits[0].libelle}} </span>  </h1> -->
     <!-- <div> {{produits[0].place}}-- {{produits[0].libelle}}--{{produits[0].prix}}</div> -->
     <!-- {{produits|json}} -->
-    <div class="grid-container">
+    <form [formGroup]="productForm" >
+      <div class="grid-container">
  
-       <form [formGroup]="productForm" >
+      
        <div class="grid-item item1"> <h1 class="titre" >  
         {{produits[0].libelle|uppercase}} Hotel
        </h1></div>
@@ -67,10 +68,12 @@
        
        <div class="grid-item item6">
         <h2> Avis</h2>
-       <input type="text" placeholder="Ecrivez un commentaire ..." class="form-control form-control-lg" formControlName="comm" /> <button class="btn btn-warning" (click)="ajouterCommentaire(produits[0].id)" >ajouter</button>
+       <input type="text" placeholder="Ecrivez un commentaire ..." class="form-control form-control-lg" formControlName="comm" /> 
+       <button class="btn btn-warning" (click)="ajouterCommentaire(produits[0].id)" >ajouter</button>
        <div> 
         <h4> les commentaires</h4>
          <div class="form-control"  > {{produits[0].commentaire|json}} </div>
        </div>
-       </div></form>
        </div>
+       </div>
+      </form>

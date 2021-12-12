@@ -1,22 +1,4 @@
-<!-- 
- 
-<div class="wrap">
-  <ng-container *ngFor="let p of produits">
-<div class="tile"> 
 
-  <img [src]='p.photo'/>
-  <div class="text">
-  
-  <p class="animate-text">
-    Bacon ipsum dolor amet pork belly tri-tip turducken, pancetta bresaola pork chicken meatloaf. Flank sirloin strip steak prosciutto kevin turducken. </p>
-<div class="dots">
-  
-  </div>
-  </div>
- </div>
-</ng-container>
-
-</div> -->
 <h1> {{region |uppercase}} HOTELS </h1>
 <div class="container">
   <div class="row">
@@ -25,21 +7,11 @@
 <div class="card" style="width: 18rem;">
   <img [src]='p.photo' class="rounded mx-auto d-block"/>
   <div class="card-body">
-    <h5 class="card-title">{{p.libelle}}</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button class="btn btn-primary" [routerLink]="['/Package/',p.place, p.libelle]" >discover more</button>
+    <h5 class="card-title">{{p.libelle|hotelPipe:p.etoile}}</h5>
+    <p class="card-text">{{p.place|uppercase}}--Tunisie
+      <br>
+      {{p.prix | number:".3"}} DT
+    </p>
+    <button class="btn btn-primary" [routerLink]="['/Package/',p.place, p.libelle]" >Details</button>
   </div>
 </div></div></div></div>
-
-
-<!-- <div class="container">
-  <div class="row">
-    <div class="col" *ngFor="let p of produits" >
-      <h4>{{p.libelle}}</h4>
-      <img [src]='p.photo'/>
-     
-      <button routerLink="['/Package/',p.place, p.libelle]" >discover more</button>
-    </div>
-    
-  </div>
-</div> -->

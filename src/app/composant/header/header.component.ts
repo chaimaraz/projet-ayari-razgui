@@ -28,7 +28,7 @@ p:Produit
     this.produitS.getProduit()
     .subscribe( data => this.produits = data)
     }
-  search(){
+  /*search(){
     let b=this.form.controls.search.value
 // this.p=this.produits.find(n => n.libelle=b);
 this.produitS.getProduit().subscribe(data => this.produits=data);
@@ -39,30 +39,23 @@ console.log(this.p)
 
 this.router.navigate(['/Package',this.p.place,b]);
   
-}
+}*/
 
 fn(){
-
   let b=this.form.controls.search.value;
   this.produitS.getProduitByPlace(b).subscribe(data => this.i=data.length);
-
-  // this.produitS.getProduitByName(b).subscribe(data =>this.p=data)
   this.produitS.getProduit().subscribe(data => this.produits=data);
-this.produitS.getProduit().subscribe(data => this.p=data.find(l => l.libelle== b));
-  if (this.p!=undefined) {
-    this.router.navigate(['/Package',this.p.place,b]);
-    
+  this.produitS.getProduit().subscribe(data => this.p=data.find(l => l.libelle== b));
+  
+  if (this.p!=undefined ) {
+  this.router.navigate(['/Package',this.p.place,b]);
   }
-
-  else if (this.i!=0) {
-    this.router.navigate(['/Package',b]);
-    
+  else if (this.i!=0 ) {
+  this.router.navigate(['/Package',b]);
   }
   else alert("ERREUR");
-
-
-
 }
+
 
 // return false;
   
@@ -79,7 +72,7 @@ this.produitS.getProduit().subscribe(data => this.p=data.find(l => l.libelle== b
   //   }
   //   else alert("Rectifier votre recherche s'il vous Plais");
   // }
-  search2(){
+ /* search2(){
     let a=this.form.controls.search.value;
     
     this.produitS.getProduitByPlace(a).subscribe(data => this.i=data.length);
@@ -89,25 +82,26 @@ this.produitS.getProduit().subscribe(data => this.p=data.find(l => l.libelle== b
     }
     else{ return false ;
     }
-  
+} */
 
-}
+
   toform(){
     this.router.navigate(['../Formulaire']);
   }
+  
   logout(){
     return this.login.logout();
   }
+  
   signIn(){
     return this.signIn();
   }
+
   ngOnInit(): void {
     this.afficherProduits()
     this.form=this.f.group({
       search:['']
     })
-
-console.log(this.form.value);
 
   }
 

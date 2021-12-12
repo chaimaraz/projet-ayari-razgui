@@ -32,23 +32,18 @@ public roles:string[];
 
 
   signIn(user :User){
-    
     console.log(this.users)
     let valid_user =false;
     this.users.forEach( (curUser) => 
-    {
-      
-    
-      if(user.username == curUser.username && user.password == curUser.password) {
+    {   
+if(user.username == curUser.username && user.password == curUser.password) {
     valid_user = true;
 this.user_connecte = curUser.username;
 this.isconnecte = true;
 this.roles = curUser.roles;
+/*
 localStorage.setItem('user_connecte',this.user_connecte);
-localStorage.setItem('isconnecte',String(this.isconnecte))
-
-
-
+localStorage.setItem('isconnecte',String(this.isconnecte))*/
     }
    } )
    console.log(valid_user);
@@ -69,8 +64,8 @@ localStorage.setItem('isconnecte',String(this.isconnecte))
     this.isconnecte=false;
     this.user_connecte=undefined;
     this.roles=undefined;
-    localStorage.removeItem('user_connecte');
-    localStorage.setItem('isconnecte',String(this.isconnecte));
+    /*localStorage.removeItem('user_connecte');
+    localStorage.setItem('isconnecte',String(this.isconnecte));*/
 this.router.navigate(['/Package'])
   }
 }
