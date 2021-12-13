@@ -1,0 +1,1460 @@
+{
+  "Hotel": [
+    {
+      "id": 0,
+      "libelle": "Radisson Blu Resort & Thalasso Hammamet ",
+      "photo": [
+        "../../../assets/hotelphoto/hm1.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "hammamet",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 2,
+      "libelle": "chaima",
+      "prix": "22222222222222",
+      "place": "korbes",
+      "image": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "photo": [
+        [
+          "../../../assets/hotelphoto/hm.jpg"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "libelle": "Hôtel Sol Azur Beach ",
+      "photo": [
+        "../../../assets/royale.jfif"
+      ],
+      "prix": 170,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "hammamet",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 7
+    },
+    {
+      "id": 4,
+      "libelle": "Djerba jervvvvba Sun Club",
+      "prix": 160,
+      "place": "djerba",
+      "image": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "photo": []
+    },
+    {
+      "id": 5,
+      "libelle": "Hotel Djerba Orient",
+      "photo": [
+        "../../../assets/hotelphoto/jerba2.jpg"
+      ],
+      "prix": 140,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "djerba",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 2
+    },
+    {
+      "id": 6,
+      "libelle": "Palm Djerba Appartment",
+      "photo": [
+        "../../../assets/hotelphoto/hm1.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "djerba",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 7,
+      "libelle": "Dar El Jerbi",
+      "photo": [
+        "../../../assets/hotelphoto/hm1(2).jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "djerba",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 8,
+      "libelle": "Mahdia Palace",
+      "photo": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "mahdia",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 9,
+      "libelle": "Sabat",
+      "photo": [
+        "../../../assets/royale.jfif"
+      ],
+      "prix": 140,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "mahdia",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 1
+    },
+    {
+      "id": 10,
+      "libelle": "El Mouradi Mahdia",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "mahdia",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 7
+    },
+    {
+      "id": 11,
+      "libelle": "Mahdia Beach Hotel",
+      "photo": [
+        "../../../assets/hotelphoto/jerba2.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "mahdia",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 3
+    },
+    {
+      "id": 12,
+      "libelle": "Dar Saida Beya",
+      "photo": [
+        "../../../assets/hotelphoto/hm1.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Tozeur",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 7
+    },
+    {
+      "id": 13,
+      "libelle": "El Mouradi Touzeur",
+      "photo": [
+        "../../../assets/hotelphoto/hm1(2).jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Tozeur",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 6
+    },
+    {
+      "id": 14,
+      "libelle": "Dar Ezzahra",
+      "photo": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "prix": 140,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Tozeur",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 15,
+      "libelle": "Dar Nejma",
+      "photo": [
+        "../../../assets/royale.jfif"
+      ],
+      "prix": 140,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Tozeur",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 16,
+      "libelle": "Hotel Nour Congress",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Bizerte",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 1
+    },
+    {
+      "id": 17,
+      "libelle": "London House",
+      "photo": [
+        "../../../assets/hotelphoto/jerba2.jpg"
+      ],
+      "prix": 120,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Bizerte",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 5
+    },
+    {
+      "id": 18,
+      "libelle": "Dar Warda",
+      "photo": [
+        "../../../assets/hotelphoto/hm1.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Bizerte",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 19,
+      "libelle": "Dar Salama",
+      "photo": [
+        "../../../assets/hotelphoto/hm1(2).jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Bizerte",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 20,
+      "libelle": "Dar Alouini",
+      "photo": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "prix": 150,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kairouan",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 3
+    },
+    {
+      "id": 21,
+      "libelle": "Chema chaabani",
+      "photo": [
+        "../../../assets/royale.jfif"
+      ],
+      "prix": 170,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kairouan",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 22,
+      "libelle": "Cité Jardin",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kairouan",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 23,
+      "libelle": "Dar Hedia Karkoud",
+      "photo": [
+        "../../../assets/hotelphoto/jerba2.jpg"
+      ],
+      "prix": 170,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kairouan",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 24,
+      "libelle": "Camp Mars",
+      "photo": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kébili",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 25,
+      "libelle": "Sahara Douz",
+      "photo": [
+        "../../../assets/royale.jfif"
+      ],
+      "prix": 170,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kébili",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 26,
+      "libelle": "La maison de sable",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kébili",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 27,
+      "libelle": "Tente Elbey",
+      "photo": [
+        "../../../assets/hotelphoto/jerba2.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Kébili",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 28,
+      "libelle": "Lella Mariem",
+      "photo": [
+        "../../../assets/hotelphoto/hm1.jpg"
+      ],
+      "prix": 140,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "zarzis",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 29,
+      "libelle": "Dar Mamina",
+      "photo": [
+        "../../../assets/hotelphoto/hm1(2).jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "zarzis",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 30,
+      "libelle": "Dar Nesma",
+      "photo": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "zarzis",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 31,
+      "libelle": "Hotel Palais Royal",
+      "photo": [
+        "../../../assets/hotelphoto/hm1.jpg"
+      ],
+      "prix": 160,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sfax",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 32,
+      "libelle": "Plaza Hotel Sfax",
+      "photo": [
+        "../../../assets/hotelphoto/hm1(2).jpg"
+      ],
+      "prix": 160,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sfax",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 33,
+      "libelle": "Ibis",
+      "photo": [
+        "../../../assets/hotelphoto/hm.jpg"
+      ],
+      "prix": 130,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sfax",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 34,
+      "libelle": "Le Concon Sfax",
+      "photo": [
+        "../../../assets/royale.jfif"
+      ],
+      "prix": 140,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sfax",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 35,
+      "libelle": "Hotel Marhaba Beach",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 200,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sousse",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 36,
+      "libelle": "Pearl Marriot Resort",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 120,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sousse",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 37,
+      "libelle": "Mövenpick Resort",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 170,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sousse",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 38,
+      "libelle": "Riadh Palms",
+      "photo": [
+        "../../../assets/hotelphoto/jerba1.jpg"
+      ],
+      "prix": 150,
+      "price": [
+        {
+          "remise": 20,
+          "dateDebut": "1970-01-01T00:00:00.000Z",
+          "datefin": "1970-01-01T00:00:00.000Z"
+        }
+      ],
+      "place": "Sousse",
+      "des": [
+        "Climatisation",
+        "Garderie d'enfants",
+        "Téléphone avec ligne directe",
+        "Sèche-cheveux",
+        "Bar",
+        "Coffre fort",
+        "Casino",
+        "Sauna",
+        "Salle de réunion",
+        "Golf"
+      ],
+      "chambres": [
+        "Chambre simple",
+        "Chambre double",
+        "Chambre triple",
+        "Chambre quadruple",
+        "Chambre dortoir",
+        "chambre enfants"
+      ],
+      "ajoutChambre": [],
+      "commentaire": [],
+      "etoile": 4
+    },
+    {
+      "id": 39
+    },
+    {
+      "id": 40
+    },
+    {
+      "id": 41,
+      "libelle": "oussema",
+      "prix": "123456",
+      "place": "djerba",
+      "image": "",
+      "photo": []
+    },
+    {
+      "id": 42,
+      "libelle": "chaima",
+      "prix": "yt",
+      "place": "ppppp",
+      "image": "",
+      "photo": []
+    }
+  ],
+  "users": [
+    {
+      "username": "ADMIN",
+      "password": 123,
+      "roles": [
+        "ADMIN"
+      ]
+    }
+  ]
+}

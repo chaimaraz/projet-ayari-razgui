@@ -14,14 +14,6 @@ export class FormulaireComponent implements OnInit {
 error:number=0;
 
 
-
-
-
-
-
-
-
-
   onlogin(){
   this.client=this.f.value;
   // this.client.username=this.f.controls.username.value;
